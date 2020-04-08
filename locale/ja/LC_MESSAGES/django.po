@@ -323,15 +323,15 @@ msgstr "代理ログイン"
 
 #: course/auth.py:224
 msgid "Already impersonating someone."
-msgstr ""
+msgstr "既に代理ログインされています。"
 
 #: course/auth.py:248 relate/templates/base.html:111
 msgid "Impersonate user"
-msgstr ""
+msgstr "代理ログインユーザー"
 
 #: course/auth.py:256
 msgid "only AJAX POST is allowed"
-msgstr ""
+msgstr "AJAXによるPOSTのみ許可されています。"
 
 #: course/auth.py:262 course/flow.py:2612
 msgid "odd POST parameters"
@@ -339,46 +339,46 @@ msgstr ""
 
 #: course/auth.py:281
 msgid "may not stop impersonating"
-msgstr ""
+msgstr "代理ログインは停止できません。"
 
 #: course/auth.py:284
 msgid "Not currently impersonating anyone."
-msgstr ""
+msgstr "現在、代理ログインは行われていません。"
 
 #: course/auth.py:289
 msgid "No longer impersonating anyone."
-msgstr ""
+msgstr "代理ログインをしない"
 
 #: course/auth.py:383 course/templates/course/course-page.html:17
 #: course/templates/course/flow-start.html:210
 #: course/templates/course/login.html:7 relate/templates/403.html:14
 #: relate/templates/base.html:148
 msgid "Sign in"
-msgstr ""
+msgstr "サインイン"
 
 #: course/auth.py:398
 msgid "Username-based sign-in is not being used"
-msgstr ""
+msgstr "ユーザー名によるサインインは利用していません"
 
 #: course/auth.py:439 course/grades.py:1089
 msgid "Username"
-msgstr ""
+msgstr "ユーザー名"
 
 #: course/auth.py:452 course/auth.py:541 course/auth.py:553
 msgid "Send email"
-msgstr ""
+msgstr "メールの送信"
 
 #: course/auth.py:459 course/auth.py:566 course/auth.py:695
 msgid "self-registration is not enabled"
-msgstr ""
+msgstr "自身による登録は有効化されていません。"
 
 #: course/auth.py:495
 msgid "Verify your email"
-msgstr ""
+msgstr "メールを確認"
 
 #: course/auth.py:509 course/auth.py:654 course/auth.py:820
 msgid "Email sent. Please check your email and click the link."
-msgstr ""
+msgstr "メールを送信しました。確認の上リンクをクリックしてください。"
 
 #: course/auth.py:518
 #, python-format
@@ -433,20 +433,20 @@ msgstr ""
 
 #: course/auth.py:672
 msgid "Password"
-msgstr ""
+msgstr "パスワード"
 
 #: course/auth.py:674
 msgid "Password confirmation"
-msgstr ""
+msgstr "パスワード(確認)"
 
 #: course/auth.py:680 course/auth.py:941 course/enrollment.py:973
 #: course/grades.py:1651 course/versioning.py:476 course/views.py:1409
 msgid "Update"
-msgstr ""
+msgstr "アップデート"
 
 #: course/auth.py:688
 msgid "The two password fields didn't match."
-msgstr ""
+msgstr "パスワードが一致しません"
 
 #: course/auth.py:704 course/auth.py:718 course/auth.py:847
 msgid "Invalid sign-in token. Perhaps you've used an old token email?"
@@ -472,11 +472,11 @@ msgstr ""
 
 #: course/auth.py:742 course/auth.py:867
 msgid "Successfully signed in."
-msgstr ""
+msgstr "サインインに成功しました。"
 
 #: course/auth.py:769
 msgid "Send sign-in email"
-msgstr ""
+msgstr "サインインのメール送信"
 
 #: course/auth.py:776 course/auth.py:836
 msgid "Email-based sign-in is not being used"
@@ -576,7 +576,7 @@ msgstr ""
 
 #: course/calendar.py:85
 msgid "All-day event"
-msgstr ""
+msgstr "終日イベント"
 
 #. Translators: for when the due time is "All day", how the webpage
 #. of a event is displayed.
@@ -1188,7 +1188,7 @@ msgstr ""
 
 #: course/enrollment.py:288
 msgid "New enrollment request"
-msgstr ""
+msgstr "新しい登録リクエスト"
 
 #: course/enrollment.py:304
 msgid ""
@@ -1198,7 +1198,7 @@ msgstr ""
 
 #: course/enrollment.py:311 course/enrollment.py:1072
 msgid "Successfully enrolled."
-msgstr ""
+msgstr "登録に成功しました。"
 
 #: course/enrollment.py:315
 msgid "A participation already exists. Enrollment attempt aborted."
@@ -2725,11 +2725,11 @@ msgstr ""
 
 #: course/models.py:645
 msgid "Participation preapproval"
-msgstr ""
+msgstr "参加の事前承認"
 
 #: course/models.py:646
 msgid "Participation preapprovals"
-msgstr ""
+msgstr "参加の事前承認"
 
 #: course/models.py:744
 msgid "Instructor"
@@ -4932,7 +4932,7 @@ msgstr ""
 
 #: course/templates/course/grade-flow-page.html:162
 msgid "Start:"
-msgstr ""
+msgstr "開始:"
 
 #: course/templates/course/grade-flow-page.html:180
 msgid "Page number"
@@ -6460,15 +6460,15 @@ msgstr ""
 
 #: relate/templates/base.html:83
 msgid "Staff"
-msgstr ""
+msgstr "スタッフ"
 
 #: relate/templates/base.html:87
 msgid "Admin site"
-msgstr ""
+msgstr "管理エリア"
 
 #: relate/templates/base.html:93
 msgid "Purge page view data"
-msgstr ""
+msgstr "ページビューデータの削除"
 
 #: relate/templates/base.html:100
 msgid "Issue exam tickets"
@@ -6480,12 +6480,12 @@ msgstr ""
 
 #: relate/templates/base.html:107
 msgid "Test/Troubleshoot"
-msgstr ""
+msgstr "テスト/トラブルシューティング"
 
 #: relate/templates/base.html:133
 #, python-format
 msgid "Signed in as %(username)s"
-msgstr ""
+msgstr "%(username)s さんでログイン中"
 
 #: relate/templates/base.html:140
 msgid "(impersonated)"
@@ -6509,15 +6509,15 @@ msgstr ""
 #: relate/templates/sign-in-choice.html:5
 #, python-format
 msgid "Sign in to %(relate_site_name)s"
-msgstr ""
+msgstr " %(relate_site_name)s へサインイン"
 
 #: relate/templates/sign-in-choice.html:14
 msgid "Sign in using your institution's login"
-msgstr ""
+msgstr "機関コードを使用してログイン"
 
 #: relate/templates/sign-in-choice.html:23
 msgid "Sign in using your email"
-msgstr ""
+msgstr "メールアドレスを使用してログイン"
 
 #: relate/templates/sign-in-choice.html:32
 msgid "Sign up for an account"
