@@ -103,6 +103,8 @@ NONE_SESSION_TAG = string_concat("<<<", _("NONE"), ">>>")  # noqa
 # {{{ home
 
 def home(request):
+    print("home start")
+    
     # type: (http.HttpRequest) -> http.HttpResponse
     now_datetime = get_now_or_fake_time(request)
 

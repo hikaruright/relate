@@ -25,7 +25,7 @@ msgstr ""
 #: course/models.py:833 course/models.py:867 course/models.py:1477
 #: course/models.py:1878
 msgid "Course"
-msgstr ""
+msgstr "コース"
 
 #: accounts/apps.py:8
 msgid "Accounts"
@@ -250,41 +250,41 @@ msgstr "Opportunit"
 
 #: course/admin.py:1045
 msgid "Revoke Exam Tickets"
-msgstr ""
+msgstr "試験チケットの却下"
 
 #: course/analytics.py:58 course/analytics.py:452 course/analytics.py:494
 msgid "may not view analytics"
-msgstr ""
+msgstr "解析結果がないようです。"
 
 #: course/analytics.py:106
 msgctxt "No data"
 msgid "None"
-msgstr ""
+msgstr "なし"
 
 #: course/analytics.py:115
 msgctxt "Value of grade"
 msgid "value greater than max"
-msgstr ""
+msgstr "最大値より大きい"
 
 #: course/analytics.py:123
 msgctxt "Value of grade"
 msgid "value smaller than min"
-msgstr ""
+msgstr "最小値より小さい"
 
 #: course/analytics.py:174
 msgctxt "Value in histogram"
 msgid "<out of bounds>"
-msgstr ""
+msgstr "<out of boudns>"
 
 #: course/analytics.py:276 course/analytics.py:425
 msgctxt "Status of session"
 msgid "in progress"
-msgstr ""
+msgstr "処理中"
 
 #: course/analytics.py:419
 msgctxt "Minute (time unit)"
 msgid "min"
-msgstr ""
+msgstr "最小"
 
 #: course/analytics.py:462
 #, python-format
@@ -292,22 +292,24 @@ msgid ""
 "Flow '%s' was not found in the repository, but it exists in the database--"
 "maybe it was deleted?"
 msgstr ""
+"Flow '%s' was not found in the repository, but it exists in the database--"
+"maybe it was deleted?"
 
 #: course/apps.py:9
 msgid "Course module"
-msgstr ""
+msgstr "コースモジュール"
 
 #: course/auth.py:153
 msgid "Error while impersonating."
-msgstr ""
+msgstr "エラーが発生しました。"
 
 #: course/auth.py:198
 msgid "Select user to impersonate."
-msgstr ""
+msgstr "代理ログインするユーザを選択"
 
 #: course/auth.py:205
 msgid "Add impersonation header"
-msgstr ""
+msgstr "代理ログインメニューを表示"
 
 #: course/auth.py:206
 msgid ""
@@ -317,7 +319,7 @@ msgstr ""
 
 #: course/auth.py:210
 msgid "Impersonate"
-msgstr ""
+msgstr "代理ログイン"
 
 #: course/auth.py:224
 msgid "Already impersonating someone."
@@ -6563,16 +6565,16 @@ msgstr ""
 
 #: tests/test_checks.py:844 tests/test_checks.py:860 tests/test_misc.py:53
 msgid "English"
-msgstr ""
+msgstr "英語"
 
 #: tests/test_misc.py:54
 msgid "Korean"
-msgstr ""
+msgstr "韓国語"
 
 #: tests/test_misc.py:55
 msgid "French"
-msgstr ""
+msgstr "フランス語"
 
 #: tests/test_utils.py:233 tests/test_utils.py:249
 msgid "whatever"
-msgstr ""
+msgstr "その他"
